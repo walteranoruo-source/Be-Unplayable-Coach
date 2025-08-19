@@ -1,7 +1,7 @@
 services:
- - type: web
- name: coachos-app
- env: code
- buildcommand: npm install
- startcommand: nodeindex.js
- plan: free
+  - type: web
+    name: coachos-app
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    plan: free
