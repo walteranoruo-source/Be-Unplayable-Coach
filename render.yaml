@@ -1,0 +1,6 @@
+services:
+ - type: web
+ name: coachos-app
+ env: code
+ buildcommand: npm install
+ startcommand: nodeindex.js
