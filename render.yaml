@@ -4,3 +4,4 @@ services:
  env: code
  buildcommand: npm install
  startcommand: nodeindex.js
+ plan: free
